@@ -1,0 +1,148 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+<style>
+    body,h1,h2,h3,h4,h5,h6,.w3-wide,{font-family: "Poppins", sans-serif}
+    body {font-size:16px;}
+    body{
+        margin: 0;
+    }
+    p {
+        text-indent: 30px 
+    }    
+/* silde the heading 1*/
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li {
+        float: left;
+    }
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+    li.dropdown {
+        display: inline-block;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<body class="w3-content" style="max-width:1000px">
+<br>
+<br>
+<!-- silde/menu-->
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">menu</a></li>
+    <li><a href="#">contact</a></li>
+    <li class="dropdown">
+        <a href="javasvript:void(0)" class="dropbtn">more</a>
+        <div class="dropdown-content">
+            <a href="#">SL:contact 1</a>
+            <a href="#">SL:contact 2</a>
+            <a href="#">SL:contact 3</a>
+        </div>
+    </li>
+</ul>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top"style="width:1400px;">
+<!-- The Grid -->
+<div class="w3-row-padding">
+<!--Right column & Header-->
+<div class="w3-container" style="margin-top:70px" id="showme">
+    <h1 class="w3-jumbo"><b>บทความ</b></h1>
+</div>
+<!-- Content (s1)-->
+<div class="w3-twothid">
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <div class="w3-container">
+            <h4 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>ความหมายของบทความหมายถึงอะไร ?</h2>
+            <div class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>November 2018 -<span class="w3-tag w3-tag w3-margin-bottom">current</span></h6>
+                <p>หมายถึงงานเขียนที่เผยแพร่ในสื่อสิ่งพิมพ์หรือสื่ออิเล็กทรอนิกส์ ซึ่งมีจุดประสงค์เพื่อเผยแพร่ข่าวสาร ผลการวิจัย เผยแพร่ความรู้ การวิเคราะห์ทางการศึกษา การวิพากษ์วิจารณ์ เป็นต้น โดยปกติบทความหนึ่งบทความจะพูดถึงเรื่องใดเรื่องหนึ่งเป็นประเด็นหลักเพียงเรื่องเดียว</p>
+            <hr>
+        
+        </div>
+    </div>
+</div>
+</div>
+<div class="w3-container w3-card w3-white">
+    <h4 class="w3-opacity"><b>ส่วนประกอบของบทความ</b></h4>
+    <h5 class="w3-text-black"><i class=" fa-fw w3-margin-right"></i>หัวเรื่อง</h5>
+    <p>หัวเรื่องหรือพาดหัว (headline) เป็นข้อความที่อยู่บนสุดของบทความแสดงถึงประเด็นหลักของบทความ หัวเรื่องมักถูกออกแบบให้โดดเด่นสะดุดตา และใช้คำที่เลือกสรรมาให้เกี่ยวข้องกับหัวเรื่อง หัวเรื่องหรือพาดหัวมักจะถูกเขียนหรือพิมพ์ด้วยรูปแบบอย่างย่อ ซึ่งอาจเรียบเรียงอย่างไม่เป็นประโยคหรือไวยากรณ์ที่ไม่สมบูรณ์</p>
+    <hr> 
+    <h5 class="w3-text-black"><i class=" fa-fw w3-margin-right"></i>บรรทัดผู้เขียน</h5>
+    <p>บรรทัดผู้เขียน (byline) เป็นบรรทัดแรกถัดจากหัวเรื่องหรือบรรทัดสุดท้ายในบทความที่ลงชื่อผู้เขียน อาจเป็นชื่อจริงหรือนามปากกาก็ได้ และมักจะระบุตำแหน่งงานของผู้เขียนอยู่ด้วย บรรทัดผู้เขียนอาจมีบทสรุปย่อของบทความด้วยก็ได้</p>
+    <hr>
+    <h5 class="w3-text-black"><i class=" fa-fw w3-margin-right"></i>นำเรื่อง</h5>
+    <p>นำเรื่อง (lead) ซึ่งอาจเรียกว่าย่อหน้าแนะนำ บทนำ หรือคำนำ เป็นประโยคต่าง ๆ ที่จะดึงดูดความสนใจของผู้อ่านเข้าสู่เนื้อเรื่อง นำเรื่องแสดงให้เห็นถึงเรื่องที่ต้องการนำเสนอ ปรับน้ำเสียงและแนะนำผู้อ่านเข้าสู่บทความ ในบทความข่าว ส่วนนำเรื่องจะให้ข้อเท็จจริงที่สำคัญที่สุดและตอบคำถามว่า ใคร ทำอะไร ที่ไหน เมื่อไร ทำไม และอย่างไร ในบทความโดดเด่น (บทความที่บรรณาธิการหยิบยกขึ้นเพื่อนำเสนอเป็นประเด็นสำคัญ) ผู้เขียนอาจเลือกใช้เทคนิคต่าง ๆ ในการเปิดเนื้อเรื่อง เช่นการใช้สิ่งต่อไปนี้</p>
+    <hr>
+    <h5 class="w3-text-black"><i class=" fa-fw w3-margin-right"></i>เนื้อเรื่อง</h5>
+    <p>สำหรับบทความข่าว รายละเอียดและความละเอียดเป็นสิ่งที่ปรากฏชัดแจ้งในเนื้อเรื่องของข่าว และดำเนินไปอย่างราบรื่นต่อจากนำเรื่อง คำพูดและวาทกรรมจะถูกใช้ในบทความเพื่อเพิ่มอรรถรสและสนับสนุนเนื้อหาที่เขียน นอกจากนี้บทความข่าวส่วนใหญ่ก็ใช้อุปลักษณ์แบบพีระมิดกลับหัว</p>
+    <p>บทความโดดเด่นจะใช้รูปแบบตามความเหมาะสมตามประเภทของบทความ โครงสร้างของบทความโดดเด่นอาจมีสิ่งต่อไปนี้รวมอยู่ด้วย แต่ไม่จำกัดเพียงเท่านี้</p>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>ลำดับเวลา — บทความอาจบรรยายด้วยการเรียงลำดับอย่างหนึ่ง</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>เหตุและผล — สาเหตุและผลลัพธ์ของเหตุการณ์หรือกระบวนการที่พิจารณา</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>การแบ่งประเภท — สิ่งต่าง ๆ ในบทความที่ถูกจัดกลุ่มเพื่อช่วยทำให้เกิดความเข้าใจ</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>การเปรียบเทียบและการเปรียบต่าง — สิ่งต่าง ๆ สองสิ่งหรือมากกว่านั้นถูกพิจารณาเคียงข้างกันเพื่อให้เห็นความคล้ายหรือความต่าง</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>รายการ — ชิ้นส่วนสารสนเทศที่ถูกจัดวางไว้เป็นรายการเป็นข้อ ๆ</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>คำถามและคำตอบ — เช่นบทสัมภาษณ์ของผู้มีชื่อเสียงหรือผู้เชี่ยวชาญ</h6>
+    <hr>
+    <h5 class="w3-text-black"><i class=" fa-fw w3-margin-right"></i>สรุปเรื่อง</h5>
+    <p>ความแตกต่างอย่างหนึ่งระหว่างบทความข่าวกับบทความโดดเด่นคือการสรุปเรื่องเพื่อจบบทความ การจบบทความข่าวจะปรากฏเมื่อสารสนเทศทุกอย่างได้นำเสนอทั้งหมดแล้วตามมโนทัศน์พีระมิดกลับหัว ในทางที่ต่างกัน บทความโดดเด่นจำเป็นต้องใช้การจบบทความมากกว่า สรุปเรื่องของบทความดังกล่าวมีสิ่งต่อไปนี้ แต่ไม่จำกัดเพียงเท่านี้</p>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>คำพูดหรือวาทกรรมส่งท้าย</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>การพรรณนาฉากหรือเหตุการณ์ต่อจากนี้</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>การเล่นคำกับชื่อเรื่องหรือหัวเรื่อง</h6>
+    <h6 class="w3-text-black"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-black"></i>ถ้อยแถลงสรุปความ</h6>
+    <hr>
+<!--End contact (S1.frame)-->
+</div>
+<!-- lower part of Column-->
+<footer class="w3-container w3-black w3-right w3-margin-top" style="width:990">
+    <p>Find me on social media.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+</footer>
+
+</body>
+</html>
